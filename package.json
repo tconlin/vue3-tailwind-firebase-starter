@@ -1,0 +1,41 @@
+{
+  "name": "shortform",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "format": "prettier --write \"**/*.{vue,css,js,json}\"",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "1.6.0",
+    "@heroicons/vue": "^2.0.12",
+    "@vueuse/core": "^9.3.1",
+    "classnames": "^2.3.2",
+    "currency.js": "^2.0.4",
+    "firebase": "^10.0.0",
+    "ky": "^0.30.0",
+    "lodash": "^4.17.20",
+    "mkdirp": "^1.0.4",
+    "nanoid": "^3.1.20",
+    "pinia": "^2.0.0-rc.10",
+    "pinia-plugin-persistedstate": "^2.3.0",
+    "vee-validate": "^4.7.0",
+    "vue": "^3.2.41",
+    "vue-instantsearch": "^4.6.0",
+    "vue-router": "^4.0.12",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "prettier": "2.5.1",
+    "vite": "^3.2.1",
+    "vite-plugin-pwa": "^0.13.1",
+    "vite-plugin-windicss": "^1.6.1",
+    "vue-tsc": "^0.29.8",
+    "windicss": "^3.4.2"
+  }
+}
